@@ -39,6 +39,15 @@ void loop() {
 
   if(btnBlue.pressed())
   {
-    Serial.println("Blue has been pressed");
+    for (int i = 0; i < 10; i++)
+    {
+      digitalWrite(LED_GRE, HIGH);
+      delay(200);
+      digitalWrite(LED_GRE, LOW);
+      delay(100);
+      digitalWrite(LED_PNK, HIGH);
+      delay(200);
+      digitalWrite(LED_PNK, LOW);
+    }
   }
 }
