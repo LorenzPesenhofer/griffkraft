@@ -48,6 +48,7 @@ void loop() {
       digitalWrite(LED_PNK, HIGH);
       delay(200);
       digitalWrite(LED_PNK, LOW);
+      delay(100);
     }
   }
 }
